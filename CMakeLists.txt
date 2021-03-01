@@ -6,3 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(practice1-1 01_Divide_and_Conquer/practice1-1.cpp)
 add_executable(practice1-2 01_Divide_and_Conquer/practice1-2.cpp)
+add_executable(practice1-3 01_Divide_and_Conquer/practice1-3.cpp)
+add_executable(practice1-4 01_Divide_and_Conquer/practice1-4.cpp)

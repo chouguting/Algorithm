@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/choug/CLionProjects/Algorithm/main.cpp" "C:/Users/choug/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/Algorithm2.dir/main.cpp.obj"
+  "C:/Users/choug/CLionProjects/Algorithm/01_Divide_and_Conquer/practice1-3.cpp" "C:/Users/choug/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/practice1-3.dir/01_Divide_and_Conquer/practice1-3.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

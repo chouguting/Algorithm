@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\choug\CLionProjects\Algorithm\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -155,6 +155,32 @@ practice1-2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-2.dir\build.make CMakeFiles/practice1-2.dir/build
 .PHONY : practice1-2/fast
 
+#=============================================================================
+# Target rules for targets named practice1-3
+
+# Build rule for target.
+practice1-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice1-3
+.PHONY : practice1-3
+
+# fast build rule for target.
+practice1-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-3.dir\build.make CMakeFiles/practice1-3.dir/build
+.PHONY : practice1-3/fast
+
+#=============================================================================
+# Target rules for targets named practice1-4
+
+# Build rule for target.
+practice1-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice1-4
+.PHONY : practice1-4
+
+# fast build rule for target.
+practice1-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-4.dir\build.make CMakeFiles/practice1-4.dir/build
+.PHONY : practice1-4/fast
+
 01_Divide_and_Conquer/practice1-1.obj: 01_Divide_and_Conquer/practice1-1.cpp.obj
 
 .PHONY : 01_Divide_and_Conquer/practice1-1.obj
@@ -209,6 +235,60 @@ practice1-2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-2.dir\build.make CMakeFiles/practice1-2.dir/01_Divide_and_Conquer/practice1-2.cpp.s
 .PHONY : 01_Divide_and_Conquer/practice1-2.cpp.s
 
+01_Divide_and_Conquer/practice1-3.obj: 01_Divide_and_Conquer/practice1-3.cpp.obj
+
+.PHONY : 01_Divide_and_Conquer/practice1-3.obj
+
+# target to build an object file
+01_Divide_and_Conquer/practice1-3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-3.dir\build.make CMakeFiles/practice1-3.dir/01_Divide_and_Conquer/practice1-3.cpp.obj
+.PHONY : 01_Divide_and_Conquer/practice1-3.cpp.obj
+
+01_Divide_and_Conquer/practice1-3.i: 01_Divide_and_Conquer/practice1-3.cpp.i
+
+.PHONY : 01_Divide_and_Conquer/practice1-3.i
+
+# target to preprocess a source file
+01_Divide_and_Conquer/practice1-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-3.dir\build.make CMakeFiles/practice1-3.dir/01_Divide_and_Conquer/practice1-3.cpp.i
+.PHONY : 01_Divide_and_Conquer/practice1-3.cpp.i
+
+01_Divide_and_Conquer/practice1-3.s: 01_Divide_and_Conquer/practice1-3.cpp.s
+
+.PHONY : 01_Divide_and_Conquer/practice1-3.s
+
+# target to generate assembly for a file
+01_Divide_and_Conquer/practice1-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-3.dir\build.make CMakeFiles/practice1-3.dir/01_Divide_and_Conquer/practice1-3.cpp.s
+.PHONY : 01_Divide_and_Conquer/practice1-3.cpp.s
+
+01_Divide_and_Conquer/practice1-4.obj: 01_Divide_and_Conquer/practice1-4.cpp.obj
+
+.PHONY : 01_Divide_and_Conquer/practice1-4.obj
+
+# target to build an object file
+01_Divide_and_Conquer/practice1-4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-4.dir\build.make CMakeFiles/practice1-4.dir/01_Divide_and_Conquer/practice1-4.cpp.obj
+.PHONY : 01_Divide_and_Conquer/practice1-4.cpp.obj
+
+01_Divide_and_Conquer/practice1-4.i: 01_Divide_and_Conquer/practice1-4.cpp.i
+
+.PHONY : 01_Divide_and_Conquer/practice1-4.i
+
+# target to preprocess a source file
+01_Divide_and_Conquer/practice1-4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-4.dir\build.make CMakeFiles/practice1-4.dir/01_Divide_and_Conquer/practice1-4.cpp.i
+.PHONY : 01_Divide_and_Conquer/practice1-4.cpp.i
+
+01_Divide_and_Conquer/practice1-4.s: 01_Divide_and_Conquer/practice1-4.cpp.s
+
+.PHONY : 01_Divide_and_Conquer/practice1-4.s
+
+# target to generate assembly for a file
+01_Divide_and_Conquer/practice1-4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-4.dir\build.make CMakeFiles/practice1-4.dir/01_Divide_and_Conquer/practice1-4.cpp.s
+.PHONY : 01_Divide_and_Conquer/practice1-4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -219,12 +299,20 @@ help:
 	@echo ... rebuild_cache
 	@echo ... practice1-1
 	@echo ... practice1-2
+	@echo ... practice1-3
+	@echo ... practice1-4
 	@echo ... 01_Divide_and_Conquer/practice1-1.obj
 	@echo ... 01_Divide_and_Conquer/practice1-1.i
 	@echo ... 01_Divide_and_Conquer/practice1-1.s
 	@echo ... 01_Divide_and_Conquer/practice1-2.obj
 	@echo ... 01_Divide_and_Conquer/practice1-2.i
 	@echo ... 01_Divide_and_Conquer/practice1-2.s
+	@echo ... 01_Divide_and_Conquer/practice1-3.obj
+	@echo ... 01_Divide_and_Conquer/practice1-3.i
+	@echo ... 01_Divide_and_Conquer/practice1-3.s
+	@echo ... 01_Divide_and_Conquer/practice1-4.obj
+	@echo ... 01_Divide_and_Conquer/practice1-4.i
+	@echo ... 01_Divide_and_Conquer/practice1-4.s
 .PHONY : help
 
 
