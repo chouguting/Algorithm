@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 
+
 std::vector<int> merge(std::vector<int> firstList, std::vector<int> secondList) {
     std::vector<int> tempList;
 
