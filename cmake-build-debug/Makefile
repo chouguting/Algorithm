@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\choug\CLionProjects\Algorithm\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -141,6 +141,19 @@ practice1-1: cmake_check_build_system
 practice1-1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-1.dir\build.make CMakeFiles/practice1-1.dir/build
 .PHONY : practice1-1/fast
+
+#=============================================================================
+# Target rules for targets named practice2-1
+
+# Build rule for target.
+practice2-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice2-1
+.PHONY : practice2-1
+
+# fast build rule for target.
+practice2-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-1.dir\build.make CMakeFiles/practice2-1.dir/build
+.PHONY : practice2-1/fast
 
 #=============================================================================
 # Target rules for targets named practice1-2
@@ -249,6 +262,33 @@ practice1-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-3.dir\build.make CMakeFiles/practice1-3.dir/01_Divide_and_Conquer/practice1-3.cpp.s
 .PHONY : 01_Divide_and_Conquer/practice1-3.cpp.s
 
+02_Greedy/practice2-1.obj: 02_Greedy/practice2-1.cpp.obj
+
+.PHONY : 02_Greedy/practice2-1.obj
+
+# target to build an object file
+02_Greedy/practice2-1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-1.dir\build.make CMakeFiles/practice2-1.dir/02_Greedy/practice2-1.cpp.obj
+.PHONY : 02_Greedy/practice2-1.cpp.obj
+
+02_Greedy/practice2-1.i: 02_Greedy/practice2-1.cpp.i
+
+.PHONY : 02_Greedy/practice2-1.i
+
+# target to preprocess a source file
+02_Greedy/practice2-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-1.dir\build.make CMakeFiles/practice2-1.dir/02_Greedy/practice2-1.cpp.i
+.PHONY : 02_Greedy/practice2-1.cpp.i
+
+02_Greedy/practice2-1.s: 02_Greedy/practice2-1.cpp.s
+
+.PHONY : 02_Greedy/practice2-1.s
+
+# target to generate assembly for a file
+02_Greedy/practice2-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-1.dir\build.make CMakeFiles/practice2-1.dir/02_Greedy/practice2-1.cpp.s
+.PHONY : 02_Greedy/practice2-1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -260,6 +300,7 @@ help:
 	@echo ... practice1-1
 	@echo ... practice1-2
 	@echo ... practice1-3
+	@echo ... practice2-1
 	@echo ... 01_Divide_and_Conquer/practice1-1.obj
 	@echo ... 01_Divide_and_Conquer/practice1-1.i
 	@echo ... 01_Divide_and_Conquer/practice1-1.s
@@ -269,6 +310,9 @@ help:
 	@echo ... 01_Divide_and_Conquer/practice1-3.obj
 	@echo ... 01_Divide_and_Conquer/practice1-3.i
 	@echo ... 01_Divide_and_Conquer/practice1-3.s
+	@echo ... 02_Greedy/practice2-1.obj
+	@echo ... 02_Greedy/practice2-1.i
+	@echo ... 02_Greedy/practice2-1.s
 .PHONY : help
 
 
