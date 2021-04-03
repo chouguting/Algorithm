@@ -1,3 +1,6 @@
+/**
+ * Practice2-1 Greedy_Activity_Selector
+ * */
 #include <iostream>
 #include <vector>
 
