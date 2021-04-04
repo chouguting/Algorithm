@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named practice2-2
+
+# Build rule for target.
+practice2-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice2-2
+.PHONY : practice2-2
+
+# fast build rule for target.
+practice2-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-2.dir\build.make CMakeFiles/practice2-2.dir/build
+.PHONY : practice2-2/fast
+
+#=============================================================================
 # Target rules for targets named practice1-1
 
 # Build rule for target.
@@ -289,6 +302,33 @@ practice1-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-1.dir\build.make CMakeFiles/practice2-1.dir/02_Greedy/practice2-1.cpp.s
 .PHONY : 02_Greedy/practice2-1.cpp.s
 
+02_Greedy/practice2-2.obj: 02_Greedy/practice2-2.cpp.obj
+
+.PHONY : 02_Greedy/practice2-2.obj
+
+# target to build an object file
+02_Greedy/practice2-2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-2.dir\build.make CMakeFiles/practice2-2.dir/02_Greedy/practice2-2.cpp.obj
+.PHONY : 02_Greedy/practice2-2.cpp.obj
+
+02_Greedy/practice2-2.i: 02_Greedy/practice2-2.cpp.i
+
+.PHONY : 02_Greedy/practice2-2.i
+
+# target to preprocess a source file
+02_Greedy/practice2-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-2.dir\build.make CMakeFiles/practice2-2.dir/02_Greedy/practice2-2.cpp.i
+.PHONY : 02_Greedy/practice2-2.cpp.i
+
+02_Greedy/practice2-2.s: 02_Greedy/practice2-2.cpp.s
+
+.PHONY : 02_Greedy/practice2-2.s
+
+# target to generate assembly for a file
+02_Greedy/practice2-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-2.dir\build.make CMakeFiles/practice2-2.dir/02_Greedy/practice2-2.cpp.s
+.PHONY : 02_Greedy/practice2-2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +341,7 @@ help:
 	@echo ... practice1-2
 	@echo ... practice1-3
 	@echo ... practice2-1
+	@echo ... practice2-2
 	@echo ... 01_Divide_and_Conquer/practice1-1.obj
 	@echo ... 01_Divide_and_Conquer/practice1-1.i
 	@echo ... 01_Divide_and_Conquer/practice1-1.s
@@ -313,6 +354,9 @@ help:
 	@echo ... 02_Greedy/practice2-1.obj
 	@echo ... 02_Greedy/practice2-1.i
 	@echo ... 02_Greedy/practice2-1.s
+	@echo ... 02_Greedy/practice2-2.obj
+	@echo ... 02_Greedy/practice2-2.i
+	@echo ... 02_Greedy/practice2-2.s
 .PHONY : help
 
 
