@@ -155,6 +155,19 @@ practice1-2/fast:
 .PHONY : practice1-2/fast
 
 #=============================================================================
+# Target rules for targets named practice3-1
+
+# Build rule for target.
+practice3-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice3-1
+.PHONY : practice3-1
+
+# fast build rule for target.
+practice3-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/build
+.PHONY : practice3-1/fast
+
+#=============================================================================
 # Target rules for targets named practice2-4
 
 # Build rule for target.
@@ -248,6 +261,33 @@ practice2-4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-4.dir\build.make CMakeFiles/practice2-4.dir/02_Greedy/practice2-4.cpp.s
 .PHONY : 02_Greedy/practice2-4.cpp.s
 
+03_Dynamic_Programming/practice3-1.obj: 03_Dynamic_Programming/practice3-1.cpp.obj
+
+.PHONY : 03_Dynamic_Programming/practice3-1.obj
+
+# target to build an object file
+03_Dynamic_Programming/practice3-1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/03_Dynamic_Programming/practice3-1.cpp.obj
+.PHONY : 03_Dynamic_Programming/practice3-1.cpp.obj
+
+03_Dynamic_Programming/practice3-1.i: 03_Dynamic_Programming/practice3-1.cpp.i
+
+.PHONY : 03_Dynamic_Programming/practice3-1.i
+
+# target to preprocess a source file
+03_Dynamic_Programming/practice3-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/03_Dynamic_Programming/practice3-1.cpp.i
+.PHONY : 03_Dynamic_Programming/practice3-1.cpp.i
+
+03_Dynamic_Programming/practice3-1.s: 03_Dynamic_Programming/practice3-1.cpp.s
+
+.PHONY : 03_Dynamic_Programming/practice3-1.s
+
+# target to generate assembly for a file
+03_Dynamic_Programming/practice3-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/03_Dynamic_Programming/practice3-1.cpp.s
+.PHONY : 03_Dynamic_Programming/practice3-1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -259,6 +299,7 @@ help:
 	@echo ... practice1-2
 	@echo ... practice2-3
 	@echo ... practice2-4
+	@echo ... practice3-1
 	@echo ... 01_Divide_and_Conquer/practice1-2.obj
 	@echo ... 01_Divide_and_Conquer/practice1-2.i
 	@echo ... 01_Divide_and_Conquer/practice1-2.s
@@ -268,6 +309,9 @@ help:
 	@echo ... 02_Greedy/practice2-4.obj
 	@echo ... 02_Greedy/practice2-4.i
 	@echo ... 02_Greedy/practice2-4.s
+	@echo ... 03_Dynamic_Programming/practice3-1.obj
+	@echo ... 03_Dynamic_Programming/practice3-1.i
+	@echo ... 03_Dynamic_Programming/practice3-1.s
 .PHONY : help
 
 
