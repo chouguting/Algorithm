@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/choug/CLionProjects/Algorithm/03_Dynamic_Programming/practice3-3.c
+string.h
+-
+malloc.h
+-
+stdio.h
+C:/Users/choug/CLionProjects/Algorithm/03_Dynamic_Programming/stdio.h
+
