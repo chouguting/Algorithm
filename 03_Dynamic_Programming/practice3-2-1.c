@@ -1,3 +1,7 @@
+/*
+ * 3-2 Longest_common_subsequence
+ */
+
 #include <string.h>
 #include <malloc.h>
 #include"stdio.h"
