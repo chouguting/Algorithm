@@ -71,6 +71,7 @@ CMAKE_BINARY_DIR = C:\Users\choug\CLionProjects\Algorithm\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/practice4-1.dir/all
 all: CMakeFiles/practice2-3.dir/all
 all: CMakeFiles/practice1-2.dir/all
 all: CMakeFiles/practice3-1.dir/all
@@ -87,6 +88,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/practice4-1.dir/clean
 clean: CMakeFiles/practice2-3.dir/clean
 clean: CMakeFiles/practice1-2.dir/clean
 clean: CMakeFiles/practice3-1.dir/clean
@@ -96,6 +98,33 @@ clean: CMakeFiles/practice3-2-2.dir/clean
 clean: CMakeFiles/practice3-3.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/practice4-1.dir
+
+# All Build rule for target.
+CMakeFiles/practice4-1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\choug\CLionProjects\Algorithm\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target practice4-1"
+.PHONY : CMakeFiles/practice4-1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/practice4-1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\choug\CLionProjects\Algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/practice4-1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\choug\CLionProjects\Algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/practice4-1.dir/rule
+
+# Convenience name for target.
+practice4-1: CMakeFiles/practice4-1.dir/rule
+
+.PHONY : practice4-1
+
+# clean rule for target.
+CMakeFiles/practice4-1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/clean
+.PHONY : CMakeFiles/practice4-1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/practice2-3.dir
