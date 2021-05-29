@@ -84,8 +84,8 @@ public:
                 currentLocation = nextLocations.front();
                 nextLocations.pop();
             } while (!seekPossibleWay(currentLocation, nextLocations, loggerTable) && !nextLocations.empty());
-
         }
+
         stack<Location> result;
         currentLocation = endLocation;
         cout << loggerTable[endLocation.x - 1][endLocation.y - 1].step + 1 << endl;
