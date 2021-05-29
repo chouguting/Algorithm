@@ -14,3 +14,4 @@ add_executable(practice3-3 03_Dynamic_Programming/practice3-3.cpp)
 add_executable(practice3-2-2 03_Dynamic_Programming/practice3-2-2.cpp)
 
 add_executable(practice4-1 04_Dynamic_Programming2/practice4-1.cpp)
+add_executable(practice4-2 04_Dynamic_Programming2/practice4-2.cpp)

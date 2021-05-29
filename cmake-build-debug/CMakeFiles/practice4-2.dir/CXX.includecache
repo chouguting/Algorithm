@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/choug/CLionProjects/Algorithm/04_Dynamic_Programming2/practice4-2.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+string.h
+C:/Users/choug/CLionProjects/Algorithm/04_Dynamic_Programming2/string.h
+

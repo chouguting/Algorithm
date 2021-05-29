@@ -232,6 +232,19 @@ practice3-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-3.dir\build.make CMakeFiles/practice3-3.dir/build
 .PHONY : practice3-3/fast
 
+#=============================================================================
+# Target rules for targets named practice4-2
+
+# Build rule for target.
+practice4-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice4-2
+.PHONY : practice4-2
+
+# fast build rule for target.
+practice4-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/build
+.PHONY : practice4-2/fast
+
 01_Divide_and_Conquer/practice1-2.obj: 01_Divide_and_Conquer/practice1-2.cpp.obj
 
 .PHONY : 01_Divide_and_Conquer/practice1-2.obj
@@ -448,6 +461,33 @@ practice3-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.s
 .PHONY : 04_Dynamic_Programming2/practice4-1.cpp.s
 
+04_Dynamic_Programming2/practice4-2.obj: 04_Dynamic_Programming2/practice4-2.cpp.obj
+
+.PHONY : 04_Dynamic_Programming2/practice4-2.obj
+
+# target to build an object file
+04_Dynamic_Programming2/practice4-2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/04_Dynamic_Programming2/practice4-2.cpp.obj
+.PHONY : 04_Dynamic_Programming2/practice4-2.cpp.obj
+
+04_Dynamic_Programming2/practice4-2.i: 04_Dynamic_Programming2/practice4-2.cpp.i
+
+.PHONY : 04_Dynamic_Programming2/practice4-2.i
+
+# target to preprocess a source file
+04_Dynamic_Programming2/practice4-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/04_Dynamic_Programming2/practice4-2.cpp.i
+.PHONY : 04_Dynamic_Programming2/practice4-2.cpp.i
+
+04_Dynamic_Programming2/practice4-2.s: 04_Dynamic_Programming2/practice4-2.cpp.s
+
+.PHONY : 04_Dynamic_Programming2/practice4-2.s
+
+# target to generate assembly for a file
+04_Dynamic_Programming2/practice4-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/04_Dynamic_Programming2/practice4-2.cpp.s
+.PHONY : 04_Dynamic_Programming2/practice4-2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -464,6 +504,7 @@ help:
 	@echo ... practice3-2-2
 	@echo ... practice3-3
 	@echo ... practice4-1
+	@echo ... practice4-2
 	@echo ... 01_Divide_and_Conquer/practice1-2.obj
 	@echo ... 01_Divide_and_Conquer/practice1-2.i
 	@echo ... 01_Divide_and_Conquer/practice1-2.s
@@ -488,6 +529,9 @@ help:
 	@echo ... 04_Dynamic_Programming2/practice4-1.obj
 	@echo ... 04_Dynamic_Programming2/practice4-1.i
 	@echo ... 04_Dynamic_Programming2/practice4-1.s
+	@echo ... 04_Dynamic_Programming2/practice4-2.obj
+	@echo ... 04_Dynamic_Programming2/practice4-2.i
+	@echo ... 04_Dynamic_Programming2/practice4-2.s
 .PHONY : help
 
 
