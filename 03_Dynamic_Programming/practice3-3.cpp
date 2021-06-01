@@ -34,9 +34,9 @@ public:
                 itemLogger[i][j] = 0;
             }
         }
-        for (int i = 0; i <= capacity; i++)valueLogger[0][i] = 0; //編號0是不存在的物品 價值一定是0
-        //** valueLogger[i+1][capacityLeft]
-        // 代表在最大承重為j的情況下 放入編號i+1(不包含i+1,所以最後可以超出一格)之前的東西經過挑選 所能得到的最大效益
+        for (int i = 0; i <= capacity; i++)valueLogger[0][i] = 0; //編號0之前 等於是沒有物品 價值一定是0
+        //** valueLogger[k][capacityLeft]
+        // 代表在最大承重為j的情況下 放入編號k(不包含k,所以最後可以超出一格)之前的東西經過挑選 所能得到的最大效益
         // 我們最終的目標就是要找 在items.size()以前的東西(也就是全部放入全部物品 0~items.size()-1) 的最大效益挑選方法(在capacity內)
         for (int i = 0; i < items.size(); i++) {
             for (int j = 0; j <= capacity; j++) {
