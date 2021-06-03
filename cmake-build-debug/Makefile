@@ -129,364 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named practice4-1
+# Target rules for targets named practice4-3
 
 # Build rule for target.
-practice4-1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice4-1
-.PHONY : practice4-1
+practice4-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice4-3
+.PHONY : practice4-3
 
 # fast build rule for target.
-practice4-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/build
-.PHONY : practice4-1/fast
+practice4-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-3.dir\build.make CMakeFiles/practice4-3.dir/build
+.PHONY : practice4-3/fast
 
-#=============================================================================
-# Target rules for targets named practice2-3
+04_Dynamic_Programming2/practice4-3.obj: 04_Dynamic_Programming2/practice4-3.cpp.obj
 
-# Build rule for target.
-practice2-3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice2-3
-.PHONY : practice2-3
-
-# fast build rule for target.
-practice2-3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-3.dir\build.make CMakeFiles/practice2-3.dir/build
-.PHONY : practice2-3/fast
-
-#=============================================================================
-# Target rules for targets named practice1-2
-
-# Build rule for target.
-practice1-2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice1-2
-.PHONY : practice1-2
-
-# fast build rule for target.
-practice1-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-2.dir\build.make CMakeFiles/practice1-2.dir/build
-.PHONY : practice1-2/fast
-
-#=============================================================================
-# Target rules for targets named practice3-1
-
-# Build rule for target.
-practice3-1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice3-1
-.PHONY : practice3-1
-
-# fast build rule for target.
-practice3-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/build
-.PHONY : practice3-1/fast
-
-#=============================================================================
-# Target rules for targets named practice2-4
-
-# Build rule for target.
-practice2-4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice2-4
-.PHONY : practice2-4
-
-# fast build rule for target.
-practice2-4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-4.dir\build.make CMakeFiles/practice2-4.dir/build
-.PHONY : practice2-4/fast
-
-#=============================================================================
-# Target rules for targets named practice3-2
-
-# Build rule for target.
-practice3-2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice3-2
-.PHONY : practice3-2
-
-# fast build rule for target.
-practice3-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2.dir\build.make CMakeFiles/practice3-2.dir/build
-.PHONY : practice3-2/fast
-
-#=============================================================================
-# Target rules for targets named practice3-2-2
-
-# Build rule for target.
-practice3-2-2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice3-2-2
-.PHONY : practice3-2-2
-
-# fast build rule for target.
-practice3-2-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2-2.dir\build.make CMakeFiles/practice3-2-2.dir/build
-.PHONY : practice3-2-2/fast
-
-#=============================================================================
-# Target rules for targets named practice3-3
-
-# Build rule for target.
-practice3-3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice3-3
-.PHONY : practice3-3
-
-# fast build rule for target.
-practice3-3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-3.dir\build.make CMakeFiles/practice3-3.dir/build
-.PHONY : practice3-3/fast
-
-#=============================================================================
-# Target rules for targets named practice4-2
-
-# Build rule for target.
-practice4-2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice4-2
-.PHONY : practice4-2
-
-# fast build rule for target.
-practice4-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/build
-.PHONY : practice4-2/fast
-
-01_Divide_and_Conquer/practice1-2.obj: 01_Divide_and_Conquer/practice1-2.cpp.obj
-
-.PHONY : 01_Divide_and_Conquer/practice1-2.obj
+.PHONY : 04_Dynamic_Programming2/practice4-3.obj
 
 # target to build an object file
-01_Divide_and_Conquer/practice1-2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-2.dir\build.make CMakeFiles/practice1-2.dir/01_Divide_and_Conquer/practice1-2.cpp.obj
-.PHONY : 01_Divide_and_Conquer/practice1-2.cpp.obj
+04_Dynamic_Programming2/practice4-3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-3.dir\build.make CMakeFiles/practice4-3.dir/04_Dynamic_Programming2/practice4-3.cpp.obj
+.PHONY : 04_Dynamic_Programming2/practice4-3.cpp.obj
 
-01_Divide_and_Conquer/practice1-2.i: 01_Divide_and_Conquer/practice1-2.cpp.i
+04_Dynamic_Programming2/practice4-3.i: 04_Dynamic_Programming2/practice4-3.cpp.i
 
-.PHONY : 01_Divide_and_Conquer/practice1-2.i
-
-# target to preprocess a source file
-01_Divide_and_Conquer/practice1-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-2.dir\build.make CMakeFiles/practice1-2.dir/01_Divide_and_Conquer/practice1-2.cpp.i
-.PHONY : 01_Divide_and_Conquer/practice1-2.cpp.i
-
-01_Divide_and_Conquer/practice1-2.s: 01_Divide_and_Conquer/practice1-2.cpp.s
-
-.PHONY : 01_Divide_and_Conquer/practice1-2.s
-
-# target to generate assembly for a file
-01_Divide_and_Conquer/practice1-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice1-2.dir\build.make CMakeFiles/practice1-2.dir/01_Divide_and_Conquer/practice1-2.cpp.s
-.PHONY : 01_Divide_and_Conquer/practice1-2.cpp.s
-
-02_Greedy/practice2-3.obj: 02_Greedy/practice2-3.cpp.obj
-
-.PHONY : 02_Greedy/practice2-3.obj
-
-# target to build an object file
-02_Greedy/practice2-3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-3.dir\build.make CMakeFiles/practice2-3.dir/02_Greedy/practice2-3.cpp.obj
-.PHONY : 02_Greedy/practice2-3.cpp.obj
-
-02_Greedy/practice2-3.i: 02_Greedy/practice2-3.cpp.i
-
-.PHONY : 02_Greedy/practice2-3.i
+.PHONY : 04_Dynamic_Programming2/practice4-3.i
 
 # target to preprocess a source file
-02_Greedy/practice2-3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-3.dir\build.make CMakeFiles/practice2-3.dir/02_Greedy/practice2-3.cpp.i
-.PHONY : 02_Greedy/practice2-3.cpp.i
+04_Dynamic_Programming2/practice4-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-3.dir\build.make CMakeFiles/practice4-3.dir/04_Dynamic_Programming2/practice4-3.cpp.i
+.PHONY : 04_Dynamic_Programming2/practice4-3.cpp.i
 
-02_Greedy/practice2-3.s: 02_Greedy/practice2-3.cpp.s
+04_Dynamic_Programming2/practice4-3.s: 04_Dynamic_Programming2/practice4-3.cpp.s
 
-.PHONY : 02_Greedy/practice2-3.s
-
-# target to generate assembly for a file
-02_Greedy/practice2-3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-3.dir\build.make CMakeFiles/practice2-3.dir/02_Greedy/practice2-3.cpp.s
-.PHONY : 02_Greedy/practice2-3.cpp.s
-
-02_Greedy/practice2-4.obj: 02_Greedy/practice2-4.cpp.obj
-
-.PHONY : 02_Greedy/practice2-4.obj
-
-# target to build an object file
-02_Greedy/practice2-4.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-4.dir\build.make CMakeFiles/practice2-4.dir/02_Greedy/practice2-4.cpp.obj
-.PHONY : 02_Greedy/practice2-4.cpp.obj
-
-02_Greedy/practice2-4.i: 02_Greedy/practice2-4.cpp.i
-
-.PHONY : 02_Greedy/practice2-4.i
-
-# target to preprocess a source file
-02_Greedy/practice2-4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-4.dir\build.make CMakeFiles/practice2-4.dir/02_Greedy/practice2-4.cpp.i
-.PHONY : 02_Greedy/practice2-4.cpp.i
-
-02_Greedy/practice2-4.s: 02_Greedy/practice2-4.cpp.s
-
-.PHONY : 02_Greedy/practice2-4.s
+.PHONY : 04_Dynamic_Programming2/practice4-3.s
 
 # target to generate assembly for a file
-02_Greedy/practice2-4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice2-4.dir\build.make CMakeFiles/practice2-4.dir/02_Greedy/practice2-4.cpp.s
-.PHONY : 02_Greedy/practice2-4.cpp.s
-
-03_Dynamic_Programming/practice3-1.obj: 03_Dynamic_Programming/practice3-1.cpp.obj
-
-.PHONY : 03_Dynamic_Programming/practice3-1.obj
-
-# target to build an object file
-03_Dynamic_Programming/practice3-1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/03_Dynamic_Programming/practice3-1.cpp.obj
-.PHONY : 03_Dynamic_Programming/practice3-1.cpp.obj
-
-03_Dynamic_Programming/practice3-1.i: 03_Dynamic_Programming/practice3-1.cpp.i
-
-.PHONY : 03_Dynamic_Programming/practice3-1.i
-
-# target to preprocess a source file
-03_Dynamic_Programming/practice3-1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/03_Dynamic_Programming/practice3-1.cpp.i
-.PHONY : 03_Dynamic_Programming/practice3-1.cpp.i
-
-03_Dynamic_Programming/practice3-1.s: 03_Dynamic_Programming/practice3-1.cpp.s
-
-.PHONY : 03_Dynamic_Programming/practice3-1.s
-
-# target to generate assembly for a file
-03_Dynamic_Programming/practice3-1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-1.dir\build.make CMakeFiles/practice3-1.dir/03_Dynamic_Programming/practice3-1.cpp.s
-.PHONY : 03_Dynamic_Programming/practice3-1.cpp.s
-
-03_Dynamic_Programming/practice3-2-2.obj: 03_Dynamic_Programming/practice3-2-2.cpp.obj
-
-.PHONY : 03_Dynamic_Programming/practice3-2-2.obj
-
-# target to build an object file
-03_Dynamic_Programming/practice3-2-2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2-2.dir\build.make CMakeFiles/practice3-2-2.dir/03_Dynamic_Programming/practice3-2-2.cpp.obj
-.PHONY : 03_Dynamic_Programming/practice3-2-2.cpp.obj
-
-03_Dynamic_Programming/practice3-2-2.i: 03_Dynamic_Programming/practice3-2-2.cpp.i
-
-.PHONY : 03_Dynamic_Programming/practice3-2-2.i
-
-# target to preprocess a source file
-03_Dynamic_Programming/practice3-2-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2-2.dir\build.make CMakeFiles/practice3-2-2.dir/03_Dynamic_Programming/practice3-2-2.cpp.i
-.PHONY : 03_Dynamic_Programming/practice3-2-2.cpp.i
-
-03_Dynamic_Programming/practice3-2-2.s: 03_Dynamic_Programming/practice3-2-2.cpp.s
-
-.PHONY : 03_Dynamic_Programming/practice3-2-2.s
-
-# target to generate assembly for a file
-03_Dynamic_Programming/practice3-2-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2-2.dir\build.make CMakeFiles/practice3-2-2.dir/03_Dynamic_Programming/practice3-2-2.cpp.s
-.PHONY : 03_Dynamic_Programming/practice3-2-2.cpp.s
-
-03_Dynamic_Programming/practice3-2.obj: 03_Dynamic_Programming/practice3-2.cpp.obj
-
-.PHONY : 03_Dynamic_Programming/practice3-2.obj
-
-# target to build an object file
-03_Dynamic_Programming/practice3-2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2.dir\build.make CMakeFiles/practice3-2.dir/03_Dynamic_Programming/practice3-2.cpp.obj
-.PHONY : 03_Dynamic_Programming/practice3-2.cpp.obj
-
-03_Dynamic_Programming/practice3-2.i: 03_Dynamic_Programming/practice3-2.cpp.i
-
-.PHONY : 03_Dynamic_Programming/practice3-2.i
-
-# target to preprocess a source file
-03_Dynamic_Programming/practice3-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2.dir\build.make CMakeFiles/practice3-2.dir/03_Dynamic_Programming/practice3-2.cpp.i
-.PHONY : 03_Dynamic_Programming/practice3-2.cpp.i
-
-03_Dynamic_Programming/practice3-2.s: 03_Dynamic_Programming/practice3-2.cpp.s
-
-.PHONY : 03_Dynamic_Programming/practice3-2.s
-
-# target to generate assembly for a file
-03_Dynamic_Programming/practice3-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-2.dir\build.make CMakeFiles/practice3-2.dir/03_Dynamic_Programming/practice3-2.cpp.s
-.PHONY : 03_Dynamic_Programming/practice3-2.cpp.s
-
-03_Dynamic_Programming/practice3-3.obj: 03_Dynamic_Programming/practice3-3.cpp.obj
-
-.PHONY : 03_Dynamic_Programming/practice3-3.obj
-
-# target to build an object file
-03_Dynamic_Programming/practice3-3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-3.dir\build.make CMakeFiles/practice3-3.dir/03_Dynamic_Programming/practice3-3.cpp.obj
-.PHONY : 03_Dynamic_Programming/practice3-3.cpp.obj
-
-03_Dynamic_Programming/practice3-3.i: 03_Dynamic_Programming/practice3-3.cpp.i
-
-.PHONY : 03_Dynamic_Programming/practice3-3.i
-
-# target to preprocess a source file
-03_Dynamic_Programming/practice3-3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-3.dir\build.make CMakeFiles/practice3-3.dir/03_Dynamic_Programming/practice3-3.cpp.i
-.PHONY : 03_Dynamic_Programming/practice3-3.cpp.i
-
-03_Dynamic_Programming/practice3-3.s: 03_Dynamic_Programming/practice3-3.cpp.s
-
-.PHONY : 03_Dynamic_Programming/practice3-3.s
-
-# target to generate assembly for a file
-03_Dynamic_Programming/practice3-3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice3-3.dir\build.make CMakeFiles/practice3-3.dir/03_Dynamic_Programming/practice3-3.cpp.s
-.PHONY : 03_Dynamic_Programming/practice3-3.cpp.s
-
-04_Dynamic_Programming2/practice4-1.obj: 04_Dynamic_Programming2/practice4-1.cpp.obj
-
-.PHONY : 04_Dynamic_Programming2/practice4-1.obj
-
-# target to build an object file
-04_Dynamic_Programming2/practice4-1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.obj
-.PHONY : 04_Dynamic_Programming2/practice4-1.cpp.obj
-
-04_Dynamic_Programming2/practice4-1.i: 04_Dynamic_Programming2/practice4-1.cpp.i
-
-.PHONY : 04_Dynamic_Programming2/practice4-1.i
-
-# target to preprocess a source file
-04_Dynamic_Programming2/practice4-1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.i
-.PHONY : 04_Dynamic_Programming2/practice4-1.cpp.i
-
-04_Dynamic_Programming2/practice4-1.s: 04_Dynamic_Programming2/practice4-1.cpp.s
-
-.PHONY : 04_Dynamic_Programming2/practice4-1.s
-
-# target to generate assembly for a file
-04_Dynamic_Programming2/practice4-1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.s
-.PHONY : 04_Dynamic_Programming2/practice4-1.cpp.s
-
-04_Dynamic_Programming2/practice4-2.obj: 04_Dynamic_Programming2/practice4-2.cpp.obj
-
-.PHONY : 04_Dynamic_Programming2/practice4-2.obj
-
-# target to build an object file
-04_Dynamic_Programming2/practice4-2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/04_Dynamic_Programming2/practice4-2.cpp.obj
-.PHONY : 04_Dynamic_Programming2/practice4-2.cpp.obj
-
-04_Dynamic_Programming2/practice4-2.i: 04_Dynamic_Programming2/practice4-2.cpp.i
-
-.PHONY : 04_Dynamic_Programming2/practice4-2.i
-
-# target to preprocess a source file
-04_Dynamic_Programming2/practice4-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/04_Dynamic_Programming2/practice4-2.cpp.i
-.PHONY : 04_Dynamic_Programming2/practice4-2.cpp.i
-
-04_Dynamic_Programming2/practice4-2.s: 04_Dynamic_Programming2/practice4-2.cpp.s
-
-.PHONY : 04_Dynamic_Programming2/practice4-2.s
-
-# target to generate assembly for a file
-04_Dynamic_Programming2/practice4-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-2.dir\build.make CMakeFiles/practice4-2.dir/04_Dynamic_Programming2/practice4-2.cpp.s
-.PHONY : 04_Dynamic_Programming2/practice4-2.cpp.s
+04_Dynamic_Programming2/practice4-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-3.dir\build.make CMakeFiles/practice4-3.dir/04_Dynamic_Programming2/practice4-3.cpp.s
+.PHONY : 04_Dynamic_Programming2/practice4-3.cpp.s
 
 # Help Target
 help:
@@ -496,42 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... practice1-2
-	@echo ... practice2-3
-	@echo ... practice2-4
-	@echo ... practice3-1
-	@echo ... practice3-2
-	@echo ... practice3-2-2
-	@echo ... practice3-3
-	@echo ... practice4-1
-	@echo ... practice4-2
-	@echo ... 01_Divide_and_Conquer/practice1-2.obj
-	@echo ... 01_Divide_and_Conquer/practice1-2.i
-	@echo ... 01_Divide_and_Conquer/practice1-2.s
-	@echo ... 02_Greedy/practice2-3.obj
-	@echo ... 02_Greedy/practice2-3.i
-	@echo ... 02_Greedy/practice2-3.s
-	@echo ... 02_Greedy/practice2-4.obj
-	@echo ... 02_Greedy/practice2-4.i
-	@echo ... 02_Greedy/practice2-4.s
-	@echo ... 03_Dynamic_Programming/practice3-1.obj
-	@echo ... 03_Dynamic_Programming/practice3-1.i
-	@echo ... 03_Dynamic_Programming/practice3-1.s
-	@echo ... 03_Dynamic_Programming/practice3-2-2.obj
-	@echo ... 03_Dynamic_Programming/practice3-2-2.i
-	@echo ... 03_Dynamic_Programming/practice3-2-2.s
-	@echo ... 03_Dynamic_Programming/practice3-2.obj
-	@echo ... 03_Dynamic_Programming/practice3-2.i
-	@echo ... 03_Dynamic_Programming/practice3-2.s
-	@echo ... 03_Dynamic_Programming/practice3-3.obj
-	@echo ... 03_Dynamic_Programming/practice3-3.i
-	@echo ... 03_Dynamic_Programming/practice3-3.s
-	@echo ... 04_Dynamic_Programming2/practice4-1.obj
-	@echo ... 04_Dynamic_Programming2/practice4-1.i
-	@echo ... 04_Dynamic_Programming2/practice4-1.s
-	@echo ... 04_Dynamic_Programming2/practice4-2.obj
-	@echo ... 04_Dynamic_Programming2/practice4-2.i
-	@echo ... 04_Dynamic_Programming2/practice4-2.s
+	@echo ... practice4-3
+	@echo ... 04_Dynamic_Programming2/practice4-3.obj
+	@echo ... 04_Dynamic_Programming2/practice4-3.i
+	@echo ... 04_Dynamic_Programming2/practice4-3.s
 .PHONY : help
 
 
