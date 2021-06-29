@@ -141,6 +141,124 @@ practice4-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-3.dir\build.make CMakeFiles/practice4-3.dir/build
 .PHONY : practice4-3/fast
 
+#=============================================================================
+# Target rules for targets named practice5-1-2
+
+# Build rule for target.
+practice5-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice5-1-2
+.PHONY : practice5-1-2
+
+# fast build rule for target.
+practice5-1-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-2.dir\build.make CMakeFiles/practice5-1-2.dir/build
+.PHONY : practice5-1-2/fast
+
+#=============================================================================
+# Target rules for targets named practice4-1
+
+# Build rule for target.
+practice4-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice4-1
+.PHONY : practice4-1
+
+# fast build rule for target.
+practice4-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/build
+.PHONY : practice4-1/fast
+
+#=============================================================================
+# Target rules for targets named practice6-2
+
+# Build rule for target.
+practice6-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice6-2
+.PHONY : practice6-2
+
+# fast build rule for target.
+practice6-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-2.dir\build.make CMakeFiles/practice6-2.dir/build
+.PHONY : practice6-2/fast
+
+#=============================================================================
+# Target rules for targets named practice5-1
+
+# Build rule for target.
+practice5-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice5-1
+.PHONY : practice5-1
+
+# fast build rule for target.
+practice5-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1.dir\build.make CMakeFiles/practice5-1.dir/build
+.PHONY : practice5-1/fast
+
+#=============================================================================
+# Target rules for targets named practice5-1-3
+
+# Build rule for target.
+practice5-1-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice5-1-3
+.PHONY : practice5-1-3
+
+# fast build rule for target.
+practice5-1-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-3.dir\build.make CMakeFiles/practice5-1-3.dir/build
+.PHONY : practice5-1-3/fast
+
+#=============================================================================
+# Target rules for targets named practice6-1
+
+# Build rule for target.
+practice6-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice6-1
+.PHONY : practice6-1
+
+# fast build rule for target.
+practice6-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-1.dir\build.make CMakeFiles/practice6-1.dir/build
+.PHONY : practice6-1/fast
+
+#=============================================================================
+# Target rules for targets named practice6-3
+
+# Build rule for target.
+practice6-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice6-3
+.PHONY : practice6-3
+
+# fast build rule for target.
+practice6-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-3.dir\build.make CMakeFiles/practice6-3.dir/build
+.PHONY : practice6-3/fast
+
+04_Dynamic_Programming2/practice4-1.obj: 04_Dynamic_Programming2/practice4-1.cpp.obj
+
+.PHONY : 04_Dynamic_Programming2/practice4-1.obj
+
+# target to build an object file
+04_Dynamic_Programming2/practice4-1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.obj
+.PHONY : 04_Dynamic_Programming2/practice4-1.cpp.obj
+
+04_Dynamic_Programming2/practice4-1.i: 04_Dynamic_Programming2/practice4-1.cpp.i
+
+.PHONY : 04_Dynamic_Programming2/practice4-1.i
+
+# target to preprocess a source file
+04_Dynamic_Programming2/practice4-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.i
+.PHONY : 04_Dynamic_Programming2/practice4-1.cpp.i
+
+04_Dynamic_Programming2/practice4-1.s: 04_Dynamic_Programming2/practice4-1.cpp.s
+
+.PHONY : 04_Dynamic_Programming2/practice4-1.s
+
+# target to generate assembly for a file
+04_Dynamic_Programming2/practice4-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-1.dir\build.make CMakeFiles/practice4-1.dir/04_Dynamic_Programming2/practice4-1.cpp.s
+.PHONY : 04_Dynamic_Programming2/practice4-1.cpp.s
+
 04_Dynamic_Programming2/practice4-3.obj: 04_Dynamic_Programming2/practice4-3.cpp.obj
 
 .PHONY : 04_Dynamic_Programming2/practice4-3.obj
@@ -168,6 +286,168 @@ practice4-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice4-3.dir\build.make CMakeFiles/practice4-3.dir/04_Dynamic_Programming2/practice4-3.cpp.s
 .PHONY : 04_Dynamic_Programming2/practice4-3.cpp.s
 
+05_Graph/practice5-1-2.obj: 05_Graph/practice5-1-2.cpp.obj
+
+.PHONY : 05_Graph/practice5-1-2.obj
+
+# target to build an object file
+05_Graph/practice5-1-2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-2.dir\build.make CMakeFiles/practice5-1-2.dir/05_Graph/practice5-1-2.cpp.obj
+.PHONY : 05_Graph/practice5-1-2.cpp.obj
+
+05_Graph/practice5-1-2.i: 05_Graph/practice5-1-2.cpp.i
+
+.PHONY : 05_Graph/practice5-1-2.i
+
+# target to preprocess a source file
+05_Graph/practice5-1-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-2.dir\build.make CMakeFiles/practice5-1-2.dir/05_Graph/practice5-1-2.cpp.i
+.PHONY : 05_Graph/practice5-1-2.cpp.i
+
+05_Graph/practice5-1-2.s: 05_Graph/practice5-1-2.cpp.s
+
+.PHONY : 05_Graph/practice5-1-2.s
+
+# target to generate assembly for a file
+05_Graph/practice5-1-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-2.dir\build.make CMakeFiles/practice5-1-2.dir/05_Graph/practice5-1-2.cpp.s
+.PHONY : 05_Graph/practice5-1-2.cpp.s
+
+05_Graph/practice5-1-3.obj: 05_Graph/practice5-1-3.cpp.obj
+
+.PHONY : 05_Graph/practice5-1-3.obj
+
+# target to build an object file
+05_Graph/practice5-1-3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-3.dir\build.make CMakeFiles/practice5-1-3.dir/05_Graph/practice5-1-3.cpp.obj
+.PHONY : 05_Graph/practice5-1-3.cpp.obj
+
+05_Graph/practice5-1-3.i: 05_Graph/practice5-1-3.cpp.i
+
+.PHONY : 05_Graph/practice5-1-3.i
+
+# target to preprocess a source file
+05_Graph/practice5-1-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-3.dir\build.make CMakeFiles/practice5-1-3.dir/05_Graph/practice5-1-3.cpp.i
+.PHONY : 05_Graph/practice5-1-3.cpp.i
+
+05_Graph/practice5-1-3.s: 05_Graph/practice5-1-3.cpp.s
+
+.PHONY : 05_Graph/practice5-1-3.s
+
+# target to generate assembly for a file
+05_Graph/practice5-1-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1-3.dir\build.make CMakeFiles/practice5-1-3.dir/05_Graph/practice5-1-3.cpp.s
+.PHONY : 05_Graph/practice5-1-3.cpp.s
+
+05_Graph/practice5-1.obj: 05_Graph/practice5-1.cpp.obj
+
+.PHONY : 05_Graph/practice5-1.obj
+
+# target to build an object file
+05_Graph/practice5-1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1.dir\build.make CMakeFiles/practice5-1.dir/05_Graph/practice5-1.cpp.obj
+.PHONY : 05_Graph/practice5-1.cpp.obj
+
+05_Graph/practice5-1.i: 05_Graph/practice5-1.cpp.i
+
+.PHONY : 05_Graph/practice5-1.i
+
+# target to preprocess a source file
+05_Graph/practice5-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1.dir\build.make CMakeFiles/practice5-1.dir/05_Graph/practice5-1.cpp.i
+.PHONY : 05_Graph/practice5-1.cpp.i
+
+05_Graph/practice5-1.s: 05_Graph/practice5-1.cpp.s
+
+.PHONY : 05_Graph/practice5-1.s
+
+# target to generate assembly for a file
+05_Graph/practice5-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice5-1.dir\build.make CMakeFiles/practice5-1.dir/05_Graph/practice5-1.cpp.s
+.PHONY : 05_Graph/practice5-1.cpp.s
+
+06_Additinal/practice6-1.obj: 06_Additinal/practice6-1.cpp.obj
+
+.PHONY : 06_Additinal/practice6-1.obj
+
+# target to build an object file
+06_Additinal/practice6-1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-1.dir\build.make CMakeFiles/practice6-1.dir/06_Additinal/practice6-1.cpp.obj
+.PHONY : 06_Additinal/practice6-1.cpp.obj
+
+06_Additinal/practice6-1.i: 06_Additinal/practice6-1.cpp.i
+
+.PHONY : 06_Additinal/practice6-1.i
+
+# target to preprocess a source file
+06_Additinal/practice6-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-1.dir\build.make CMakeFiles/practice6-1.dir/06_Additinal/practice6-1.cpp.i
+.PHONY : 06_Additinal/practice6-1.cpp.i
+
+06_Additinal/practice6-1.s: 06_Additinal/practice6-1.cpp.s
+
+.PHONY : 06_Additinal/practice6-1.s
+
+# target to generate assembly for a file
+06_Additinal/practice6-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-1.dir\build.make CMakeFiles/practice6-1.dir/06_Additinal/practice6-1.cpp.s
+.PHONY : 06_Additinal/practice6-1.cpp.s
+
+06_Additinal/practice6-2.obj: 06_Additinal/practice6-2.cpp.obj
+
+.PHONY : 06_Additinal/practice6-2.obj
+
+# target to build an object file
+06_Additinal/practice6-2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-2.dir\build.make CMakeFiles/practice6-2.dir/06_Additinal/practice6-2.cpp.obj
+.PHONY : 06_Additinal/practice6-2.cpp.obj
+
+06_Additinal/practice6-2.i: 06_Additinal/practice6-2.cpp.i
+
+.PHONY : 06_Additinal/practice6-2.i
+
+# target to preprocess a source file
+06_Additinal/practice6-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-2.dir\build.make CMakeFiles/practice6-2.dir/06_Additinal/practice6-2.cpp.i
+.PHONY : 06_Additinal/practice6-2.cpp.i
+
+06_Additinal/practice6-2.s: 06_Additinal/practice6-2.cpp.s
+
+.PHONY : 06_Additinal/practice6-2.s
+
+# target to generate assembly for a file
+06_Additinal/practice6-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-2.dir\build.make CMakeFiles/practice6-2.dir/06_Additinal/practice6-2.cpp.s
+.PHONY : 06_Additinal/practice6-2.cpp.s
+
+06_Additinal/practice6-3.obj: 06_Additinal/practice6-3.cpp.obj
+
+.PHONY : 06_Additinal/practice6-3.obj
+
+# target to build an object file
+06_Additinal/practice6-3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-3.dir\build.make CMakeFiles/practice6-3.dir/06_Additinal/practice6-3.cpp.obj
+.PHONY : 06_Additinal/practice6-3.cpp.obj
+
+06_Additinal/practice6-3.i: 06_Additinal/practice6-3.cpp.i
+
+.PHONY : 06_Additinal/practice6-3.i
+
+# target to preprocess a source file
+06_Additinal/practice6-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-3.dir\build.make CMakeFiles/practice6-3.dir/06_Additinal/practice6-3.cpp.i
+.PHONY : 06_Additinal/practice6-3.cpp.i
+
+06_Additinal/practice6-3.s: 06_Additinal/practice6-3.cpp.s
+
+.PHONY : 06_Additinal/practice6-3.s
+
+# target to generate assembly for a file
+06_Additinal/practice6-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-3.dir\build.make CMakeFiles/practice6-3.dir/06_Additinal/practice6-3.cpp.s
+.PHONY : 06_Additinal/practice6-3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -176,10 +456,38 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... practice4-1
 	@echo ... practice4-3
+	@echo ... practice5-1
+	@echo ... practice5-1-2
+	@echo ... practice5-1-3
+	@echo ... practice6-1
+	@echo ... practice6-2
+	@echo ... practice6-3
+	@echo ... 04_Dynamic_Programming2/practice4-1.obj
+	@echo ... 04_Dynamic_Programming2/practice4-1.i
+	@echo ... 04_Dynamic_Programming2/practice4-1.s
 	@echo ... 04_Dynamic_Programming2/practice4-3.obj
 	@echo ... 04_Dynamic_Programming2/practice4-3.i
 	@echo ... 04_Dynamic_Programming2/practice4-3.s
+	@echo ... 05_Graph/practice5-1-2.obj
+	@echo ... 05_Graph/practice5-1-2.i
+	@echo ... 05_Graph/practice5-1-2.s
+	@echo ... 05_Graph/practice5-1-3.obj
+	@echo ... 05_Graph/practice5-1-3.i
+	@echo ... 05_Graph/practice5-1-3.s
+	@echo ... 05_Graph/practice5-1.obj
+	@echo ... 05_Graph/practice5-1.i
+	@echo ... 05_Graph/practice5-1.s
+	@echo ... 06_Additinal/practice6-1.obj
+	@echo ... 06_Additinal/practice6-1.i
+	@echo ... 06_Additinal/practice6-1.s
+	@echo ... 06_Additinal/practice6-2.obj
+	@echo ... 06_Additinal/practice6-2.i
+	@echo ... 06_Additinal/practice6-2.s
+	@echo ... 06_Additinal/practice6-3.obj
+	@echo ... 06_Additinal/practice6-3.i
+	@echo ... 06_Additinal/practice6-3.s
 .PHONY : help
 
 
