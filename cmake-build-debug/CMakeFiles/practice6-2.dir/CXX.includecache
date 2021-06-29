@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/choug/CLionProjects/Algorithm/06_Additinal/practice6-2.cpp
+iostream
+-
+vector
+-
+climits
+-
+algorithm
+-
+

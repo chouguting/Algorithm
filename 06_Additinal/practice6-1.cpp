@@ -8,14 +8,14 @@ using namespace std;
 
 int LTS(vector<int> &theList) {
     vector<int> logger;
-    if(theList.size()==0)return 0;
+    if (theList.size() == 0)return 0;
     logger.push_back(theList[0]);
     for (int i = 1; i < theList.size(); i++) {
-        int theNum=theList[i];
-        if(theNum>logger[logger.size()-1]){
+        int theNum = theList[i];
+        if (theNum > logger[logger.size() - 1]) {
             logger.push_back(theNum);
-        }else{
-            *lower_bound(logger.begin(), logger.end(),theNum) = theNum; //和下面那個註解做同樣的事
+        } else {
+            *lower_bound(logger.begin(), logger.end(), theNum) = theNum; //和下面那個註解做同樣的事
         }
         /*for(int j=0;j<logger.size();j++){
             if(theList[i]<=logger[j]){
