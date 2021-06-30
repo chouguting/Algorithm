@@ -232,6 +232,19 @@ practice6-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-3.dir\build.make CMakeFiles/practice6-3.dir/build
 .PHONY : practice6-3/fast
 
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
 04_Dynamic_Programming2/practice4-1.obj: 04_Dynamic_Programming2/practice4-1.cpp.obj
 
 .PHONY : 04_Dynamic_Programming2/practice4-1.obj
@@ -448,6 +461,33 @@ practice6-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice6-3.dir\build.make CMakeFiles/practice6-3.dir/06_Additinal/practice6-3.cpp.s
 .PHONY : 06_Additinal/practice6-3.cpp.s
 
+06_Additinal/test.obj: 06_Additinal/test.cpp.obj
+
+.PHONY : 06_Additinal/test.obj
+
+# target to build an object file
+06_Additinal/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/06_Additinal/test.cpp.obj
+.PHONY : 06_Additinal/test.cpp.obj
+
+06_Additinal/test.i: 06_Additinal/test.cpp.i
+
+.PHONY : 06_Additinal/test.i
+
+# target to preprocess a source file
+06_Additinal/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/06_Additinal/test.cpp.i
+.PHONY : 06_Additinal/test.cpp.i
+
+06_Additinal/test.s: 06_Additinal/test.cpp.s
+
+.PHONY : 06_Additinal/test.s
+
+# target to generate assembly for a file
+06_Additinal/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/06_Additinal/test.cpp.s
+.PHONY : 06_Additinal/test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -464,6 +504,7 @@ help:
 	@echo ... practice6-1
 	@echo ... practice6-2
 	@echo ... practice6-3
+	@echo ... test
 	@echo ... 04_Dynamic_Programming2/practice4-1.obj
 	@echo ... 04_Dynamic_Programming2/practice4-1.i
 	@echo ... 04_Dynamic_Programming2/practice4-1.s
@@ -488,6 +529,9 @@ help:
 	@echo ... 06_Additinal/practice6-3.obj
 	@echo ... 06_Additinal/practice6-3.i
 	@echo ... 06_Additinal/practice6-3.s
+	@echo ... 06_Additinal/test.obj
+	@echo ... 06_Additinal/test.i
+	@echo ... 06_Additinal/test.s
 .PHONY : help
 
 

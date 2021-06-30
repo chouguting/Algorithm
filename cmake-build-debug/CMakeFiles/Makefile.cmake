@@ -59,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/practice5-1-3.dir/DependInfo.cmake"
   "CMakeFiles/practice6-1.dir/DependInfo.cmake"
   "CMakeFiles/practice6-3.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
   )
